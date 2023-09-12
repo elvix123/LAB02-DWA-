@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css"> 
+  <title>Catálogo de Clientes - Mi Empresa</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/nosotros">Nosotros</a></li>
+        <li><a href="/servicios">Nuestros Servicios</a></li>
+        <li><a href="/clientes">Catálogo de Clientes</a></li>
+        <li><a href="/contacto">Contáctenos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="clientes">
+    <h1>Catálogo de Clientes</h1>
+    <p>Descubra algunos de nuestros clientes satisfechos:</p>
+
+    <div id="clientes-carousel" class="carousel slide" data-ride="carousel">
+     
+      <ol class="carousel-indicators">
+        <li data-target="#clientes-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#clientes-carousel" data-slide-to="1"></li>
+        <li data-target="#clientes-carousel" data-slide-to="2"></li>
+       
+      </ol>
+
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/cliente1.jpg" alt="Cliente 1" class="d-block mx-auto img-fluid" style="max-height: 150px;">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/cliente2.jpg" alt="Cliente 2" class="d-block mx-auto img-fluid" style="max-height: 150px;">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/cliente3.jpg" alt="Cliente 3" class="d-block mx-auto img-fluid" style="max-height: 150px;">
+        </div>
+        
+
+   
+      <a class="carousel-control-prev" href="#clientes-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#clientes-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </section>
+
+ 
+
+  <footer>
+    <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+  </footer>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
